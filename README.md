@@ -1,1 +1,3 @@
-使用spring boot
+使用spring boot开发的一个community项目
+
+day1：初始化项目，并上传代码到github
