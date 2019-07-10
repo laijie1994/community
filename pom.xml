@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.gloria</groupId>
     <artifactId>community</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>community</name>
     <description>a community project</description>
 
@@ -44,7 +44,7 @@
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
-            <version>4.0.0</version>
+            <version>3.14.2</version>
         </dependency>
 
         <dependency>

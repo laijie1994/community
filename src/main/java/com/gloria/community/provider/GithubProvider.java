@@ -16,7 +16,7 @@ import java.io.IOException;
  * @Version 1.0
  **/
 @Component
-public class GitHubProvider {
+public class GithubProvider {
 
     public String getAccessToken(AccessTokenDTO accessTokenDTO) {
 
@@ -47,6 +47,7 @@ public class GitHubProvider {
 
         Request request = new Request.Builder()
                 .url("https://api.github.com/user?accsee_token=" + accessToken)
+                .addHeader("Authorization", "token " + accessToken)
                 .build();
 
         try {
